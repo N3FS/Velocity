@@ -81,7 +81,7 @@ public class MinecraftConnection extends ChannelInboundHandlerAdapter {
     }
 
     if (association != null) {
-      logger.info("{} has connected", association);
+      //logger.info("{} has connected", association);
     }
   }
 
@@ -92,7 +92,7 @@ public class MinecraftConnection extends ChannelInboundHandlerAdapter {
     }
 
     if (association != null && !knownDisconnect) {
-      logger.info("{} has disconnected", association);
+      //logger.info("{} has disconnected", association);
     }
   }
 
